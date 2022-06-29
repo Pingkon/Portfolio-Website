@@ -7,7 +7,7 @@ body {
   background-color: #ecf0f3;
 }
 
-.header {
+header {
   background-image: url(/images/35844491.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
 }
 
 .header-info {
-    width: 1205px;
+    width: 1245px;
     height: 200px;
     display: flex;
 }
@@ -46,7 +46,8 @@ body {
 .name {
     border: 2px solid transparent;
     border-right-color: #e0e2e3;
-    padding: 20px 50px 0 50px;
+    padding: 20px 30px 0 30px;
+    /* width: 500px; */
 }
 
 .name h1 {
@@ -63,7 +64,10 @@ body {
 }
 
 .info {
-    padding: 30px 50px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
 }
 
 .text-pos {
@@ -72,5 +76,29 @@ body {
 
 .social-media-icons {
     display: flex;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+.nav-bar {
+    width: 250px;
+    height: 500px;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-section {
+    width: 1305px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 1035px;
+    height: 1035px;
+    background-color: white;
 }
