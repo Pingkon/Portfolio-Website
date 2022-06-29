@@ -80,14 +80,19 @@ header {
 }
 
 .nav-bar {
-    width: 250px;
+    width: 230px;
     height: 500px;
     background-color: white;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
 }
 
 main {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 170px;
 
 }
 
@@ -98,7 +103,37 @@ main {
 }
 
 .content {
-    width: 1035px;
+    width: 1045px;
     height: 1035px;
     background-color: white;
+    border-radius: 10px;
+}
+
+.menu {
+    width: 230px;
+    height: 500px;
+}
+
+.menu div {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color:#3c3e41;
+    height: 100px;
+    width: 180px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #ff014f;
+    color: white;
+    border-radius: 10px;
 }
