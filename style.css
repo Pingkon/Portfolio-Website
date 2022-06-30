@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -179,7 +180,7 @@ main {
 }
 
 .content button {
-    border:2px solid #3c3e41;
+    border:2px solid #a8aaae;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
