@@ -80,13 +80,13 @@ header {
     padding-top: 20px;
 }
 
-.nav-bar {
+nav {
     width: 220px;
     height: 600px;
     background-color: white;
     border-radius: 10px;
     position: sticky;
-    top: 0px;
+    top: 10px;
 }
 
 main {
@@ -143,17 +143,14 @@ main {
     height: 800px;
     background-color: white;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.content {
-    padding: 150px 80px;
+.content-profile {
+    padding: 50px 80px;
 
 }
 
-.content h1 {
+.content-profile h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     text-decoration: underline;
@@ -162,7 +159,7 @@ main {
     color: #3c3e41;
 }
 
-.content p {
+.content-profile p {
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -172,14 +169,15 @@ main {
     padding-bottom: 30px;
 }
 
-.content div {
+.content-profile div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.content button {
+
+.content-profile button {
     border:2px solid #a8aaae;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
@@ -191,13 +189,82 @@ main {
     cursor: pointer;
 }
 
-.content button:hover {
+.content-profile button:hover {
     background-color: #ff014f;
     color: white;
     border: none;
 }
 
-.content img {
+.content-profile img {
     width: 300px;
     padding-top: 50px;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    color: #696f79;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    top: 150px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.content-work {
+    padding: 30px 80px;
+}
+
+.content-work h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+    color: #3c3e41;
+    text-align: center;
+}
+
+.content-work ul {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.content-work div {
+    display: flex;
+}
+
+.resize {
+    display: flex;
+}
+
+.cards {
+    color: #3c3e41;
+    border: 2px solid #a8aaae;
+    border-radius: 10px;
+}
+
+.cards:hover {
+    background-color: #ff014f;
+    color: white;
+    border: none;
 }
