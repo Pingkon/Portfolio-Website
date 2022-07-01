@@ -253,18 +253,15 @@ footer img {
     display: flex;
 }
 
-.resize {
-    display: flex;
-}
-
 .cards {
     color: #3c3e41;
     border: 2px solid #a8aaae;
     border-radius: 10px;
+    margin: 20px;
 }
 
 .cards:hover {
     background-color: #ff014f;
     color: white;
-    border: none;
+    border: 2px solid white;
 }
