@@ -243,9 +243,7 @@ footer img {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 30px;
-
     padding-bottom: 30px;
-    font-weight: bold;
 }
 
 .content-work div {
@@ -305,7 +303,7 @@ textarea {
 }
 
 .address {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 80px;
     display: flex;
     justify-content: flex-start;
